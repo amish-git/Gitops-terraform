@@ -2,10 +2,7 @@ variable "region" {
   default = "us-east-1"
 }
 
-variable "tf_backend_bucket_name" {
-  default = "lf-devops-gitops-terraform-state"
+variable "bucket_name" {
+  default = "amish-gitops-terraform-bucket"
 }
 
-variable "devops_interns_repo_name" {
-  default = "gitops_demo_repo"
-}
