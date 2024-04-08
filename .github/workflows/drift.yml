@@ -3,7 +3,7 @@ name:  Drift check and reconcile changes
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/2 * * * *' 
+    - cron: '* * * * *' 
 
 jobs:
   check_drift_reconcile:
