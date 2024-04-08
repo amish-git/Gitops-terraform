@@ -4,10 +4,9 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket         = "amish-gitops-tf-state"
-    key            = "terraform.tfstate"
-    region         = "us-east-1"
-    # dynamodb_table = "amish-lockfile"
+    bucket = "amish-gitops-tf-state"
+    key    = "terraform.tfstate"
+    region = "us-east-1"
   }
 }
 
